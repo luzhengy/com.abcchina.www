@@ -1,0 +1,180 @@
+header{
+    width: 100%;
+    height: calc(102rem / 80);
+}
+header  .nh-logo{
+    float: left;
+    margin-top:  calc(24rem / 80);
+    margin-left:  calc(34rem / 80);
+}
+header  .nh-logo img{
+    width:calc(280rem / 80) ;
+    height: calc(53rem / 80);
+}
+header .header-right{
+    float: right;
+}
+header .header-right img{
+    float: left;
+}
+ .header-right  .search-icon img{
+    width:calc(39rem / 80) ;
+    height: calc(39rem / 80);
+    margin-top:  calc(27rem / 80);
+    margin-right:  calc(42rem / 80);
+}
+.header-right .sange {
+    width:calc(45rem / 80) ;
+    height: calc(34rem / 80);
+    margin-top:  calc(28rem / 80);
+    margin-right:  calc(43rem / 80);
+}
+/* 主体内容*/
+main img{
+    width: calc(800rem / 80);
+    height: calc(213rem / 80);
+    margin-bottom: calc(2 1rem / 80);
+}
+main ul li{
+    background-color: #f6f6f6;
+}
+/* 主题公共样式 */
+main ul header{
+    position: relative;
+    width: calc(800rem / 80);
+    height: calc(99rem / 80);
+    line-height: calc(99rem / 80);
+    border-top: calc(1rem / 80) solid #c4c4c4;
+    border-bottom: calc(1rem / 80) solid #c4c4c4;
+    background-color: #ffff;
+}
+main header h2{
+    float: left;
+    font-size:calc(31rem / 80) ;
+    color: #d6a63f;
+    margin-left: calc(52rem / 80);
+}
+main header h2:after{
+    content: "";
+    display: block;
+    background-color: #d6a63f;
+    position: absolute;
+    top: calc(44rem / 80);
+    left: calc(24rem / 80);
+    width:calc(26 rem / 80);
+    height:calc(15rem / 80);
+}
+main header img{
+    float:right;  
+    margin-right:calc(24rem / 80);
+    margin-top:calc(39rem / 80);
+    width:calc(26rem / 80);
+    height:calc(15rem / 80);
+}
+ .zxly header {
+     color: #304056;
+ }
+ /* 专属服务 */
+ .zsfw {
+     height: calc(246rem / 80);
+     width: calc(800rem / 80);
+ }
+ .zsfw header{
+     float: left;
+ }
+ .zsfw a{
+    float: left;
+    width: calc(181rem / 80);
+    height: calc(66rem / 80);
+    line-height: calc(66rem / 80);
+    border: calc(1rem / 80) solid #757575;
+    text-align: center;
+    font-size: calc(31rem  / 80);
+    color: #000;
+    margin-top: calc(40rem / 80);
+    margin-right: calc(11rem / 80);
+}
+.zsfw .a {
+    margin-left: calc(24rem  / 80);
+}
+/* 最新动态 */
+main .zxdt {
+    height: calc(357rem / 80);
+    width: calc(800rem / 80);
+    
+}
+.zxdt  p{
+    position: relative;
+    height: calc(27rem / 80);
+    width: calc(704rem / 80);
+    font-size: calc(27rem / 80);
+    margin-left: calc(72rem  / 80);
+    margin-top: calc(34rem / 80);
+    color: #000;
+}
+.zxdt  p:after{
+    position: absolute;
+    content: "";
+    top: calc(8rem  / 80);
+    left:calc(-22rem  / 80);
+    background-color: #d6a63f;
+    height: calc(8rem / 80);
+    width: calc(8rem / 80);
+  
+}
+.zxdt  p:nth-child(2) {
+    margin-top: calc(83rem / 80);
+}
+/* 财富视点 */
+.cfsd{
+    height: calc(458rem / 80);
+    width: calc(800rem / 80);
+}
+.cfsd > img{
+    height: calc(279rem / 80);
+    width: calc(438rem / 80);
+    margin-top: calc(49rem  / 80);
+    margin-left: calc(181rem  /80);
+}
+/* 底部 */
+footer{
+    font-size: calc(31rem / 80);
+    color: #919191;
+}
+
+footer span {
+   display: block;
+   width: calc(800rem / 80);
+   height: calc(31rem / 80);
+   padding-left: calc(21rem / 64);
+ 
+}
+footer a {
+    display: block;
+    height: calc(31rem / 80);
+    width: calc(800rem / 80);
+    margin-top: calc(28rem  / 80);
+    padding-right: calc(21rem / 64);
+    color: #919191;
+    text-align: right;
+ }
+ footer img {
+     float: left;
+     margin-right: calc(12rem / 80);
+     width: calc(181rem / 80);
+     height: calc(65rem / 80);
+ }
+ footer div  {
+     width: calc(800rem / 80);
+     height: calc(65rem / 80);
+ }
+ footer div img:first-child{
+     margin-left: calc(176rem / 80);
+
+ }
+ footer i{
+    display: block;
+    width: calc(800rem / 80);
+    text-align: center;
+    margin-top: calc(31rem / 80);
+ } 

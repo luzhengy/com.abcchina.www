@@ -1,0 +1,202 @@
+/* 头部 */
+header{
+    width: 100%;
+    height: calc(102rem / 80);
+}
+header  .nh-logo{
+    float: left;
+    margin-top:  calc(24rem / 80);
+    margin-left:  calc(34rem / 80);
+}
+header  .nh-logo img{
+    width:calc(280rem / 80) ;
+    height: calc(53rem / 80);
+}
+header .header-right{
+    float: right;
+}
+header .header-right img{
+    float: left;
+}
+ .header-right  .search-icon img{
+    width:calc(39rem / 80) ;
+    height: calc(39rem / 80);
+    margin-top:  calc(27rem / 80);
+    margin-right:  calc(42rem / 80);
+}
+.header-right .sange {
+    width:calc(45rem / 80) ;
+    height: calc(34rem / 80);
+    margin-top:  calc(28rem / 80);
+    margin-right:  calc(43rem / 80);
+}
+/* 主体 */
+main > img{
+    width:calc(800rem / 80);
+    height:calc(356rem / 80);
+} 
+main header div{
+    width:calc(800rem / 80);
+    height:calc(99rem / 80);
+    line-height:calc(99rem / 80);
+    border-top:calc(1rem / 80) solid #c4c4c4;
+    border-bottom:calc(1rem / 80) solid #c4c4c4;
+    font-size:calc(31rem / 80);
+    color:#505d70;
+}
+main div h3{
+    float:left;
+    position:relative;
+    width:calc(257rem / 80);
+    height:calc(99rem / 80);
+    padding-left:calc(66rem / 80);
+}
+main div h3:after{
+    content: "";
+    display: block;
+    position:absolute;
+    left:calc(38rem / 80);
+    top:calc(46rem / 80);
+    background-color:#208f7f ;
+    width:calc(15rem / 80);
+    height:calc(15rem / 80);
+}
+main div img{
+    float:right;  
+    margin-right:calc(24rem / 80);
+    margin-top:calc(39rem / 80);
+    width:calc(26rem / 80);
+    height:calc(15rem / 80);
+}
+main header .jsh{
+    height:calc(949rem / 80);
+}
+main  .jsh .top{
+    width: calc(800rem / 80);
+    height:calc(99rem / 80);
+}
+main  .jsh h3{
+    color:#208f7f;
+    font-weight:700;
+}
+main  .jsh  ul{
+ 
+    width:calc(800rem / 80);
+    height:calc(849rem / 80);
+}
+.jsh .jsh-ul li{
+    overflow: hidden;
+    width:calc(776rem / 80);
+    height:calc(245rem / 80);
+    margin-left:calc(24rem / 80);
+    border-bottom: calc(1rem / 80) dashed #c4c4c4;
+}
+.jsh .jsh-ul  h2{
+    margin-top:calc(42rem / 80);
+    width:calc(776rem / 80);
+    height:calc(27rem / 80);
+    padding-left:calc(56rem / 80);
+    font-size:calc(27rem / 80);
+    margin-bottom:calc(44rem / 80); 
+    color:#000;
+}
+ .jsh-ul li p{
+     display: block;
+    width:calc(776rem / 80);
+    height:calc(27rem / 80);
+    padding-left:calc(49rem / 80);
+    font-size:calc(27rem / 80);
+    color:#999;
+    margin-bottom:calc(21rem / 80); 
+}
+.jsh-ul li:nth-child(3){
+    border: none;
+}
+ .jsh-ul  li p:nth-child(1){
+     text-align: right;
+ }
+ /* 外汇工具箱 */
+ .whgj {
+    width:calc(800rem / 80);
+    height:calc(411rem / 80);
+    margin-top:calc(14rem / 80);
+    font-size:calc(30rem / 80);
+ }
+ .whgj .whgj-top{
+    width:calc(800rem / 80);
+    height:calc(97rem / 80);
+    border-bottom:1px solid #c6c6c6;
+    color:#304056;
+    line-height:calc(97rem / 80);
+    padding-left:calc(20rem / 80);
+    font-weight: 700;
+ }
+ .whgj ul{
+   width:calc(800rem / 80);
+   height:calc(314rem / 80);
+
+ }
+ .whgj ul li{
+    position:relative;
+    width:calc(800rem / 80);
+    height:calc(78rem / 80);
+    border-bottom:1px dashed #c4c4c4;
+    line-height:calc(78rem / 80);
+    padding-left:calc(50rem / 80);
+    color: #000;
+ }
+ .whgj ul li:nth-child(4){
+     border-bottom: none;
+ }
+ .whgj ul li:after{
+     display: block;
+     content: "";
+    width:calc(13rem / 80);
+    height:calc(13rem / 80);
+     background-color: #208f7f;
+    position:absolute;
+   left:calc(24rem / 80);
+   top:calc(35rem / 80);
+ }
+ /* 底部 */
+footer{
+    font-size: calc(31rem / 80);
+    color: #919191;
+}
+
+footer span {
+   display: block;
+   width: calc(800rem / 80);
+   height: calc(31rem / 80);
+   padding-left: calc(21rem / 64);
+ 
+}
+footer a {
+    display: block;
+    height: calc(31rem / 80);
+    width: calc(800rem / 80);
+    margin-top: calc(28rem  / 80);
+    padding-right: calc(21rem / 64);
+    color: #919191;
+    text-align: right;
+ }
+ footer img {
+     float: left;
+     margin-right: calc(12rem / 80);
+     width: calc(181rem / 80);
+     height: calc(65rem / 80);
+ }
+ footer div  {
+     width: calc(800rem / 80);
+     height: calc(65rem / 80);
+ }
+ footer div img:first-child{
+     margin-left: calc(176rem / 80);
+
+ }
+ footer i{
+    display: block;
+    width: calc(800rem / 80);
+    text-align: center;
+    margin-top: calc(31rem / 80);
+ } 

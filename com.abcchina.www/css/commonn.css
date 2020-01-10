@@ -1,0 +1,27 @@
+/* 版心 */
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 962px;
+  }
+  
+  /* 清除浮动 */
+  .clearfix:before,
+  .clearfix:after {
+    content: "";
+    /* 既让伪元素变成块级 还让他们排在一行 */
+    display: table;
+  }
+  
+  .clearfix:after {
+    clear: both;
+  }
+  
+  /* 兼容ie 6 7 */
+  .clearfix {
+    *zoom: 1;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }

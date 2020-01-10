@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: calc(102rem / 80);
+}
+header  .nh-logo{
+    float: left;
+    margin-top:  calc(24rem / 80);
+    margin-left:  calc(34rem / 80);
+}
+header  .nh-logo img{
+    width:calc(280rem / 80) ;
+    height: calc(53rem / 80);
+}
+header .header-right{
+    float: right;
+}
+header .header-right img{
+    float: left;
+}
+ .header-right  .search-icon img{
+    width:calc(39rem / 80) ;
+    height: calc(39rem / 80);
+    margin-top:  calc(27rem / 80);
+    margin-right:  calc(42rem / 80);
+}
+.header-right .sange {
+    width:calc(45rem / 80) ;
+    height: calc(34rem / 80);
+    margin-top:  calc(28rem / 80);
+    margin-right:  calc(43rem / 80);
+}
+/* 主体 */
+main .top {
+    width: calc(800rem / 80);
+    height: calc(444rem / 80);
+}
+main .top img{
+    width: calc(800rem / 80);
+    height: calc(356rem / 80);
+}
+main .top .fw{
+    width: calc(800rem / 80);
+    height: calc(88rem / 80);
+    font-size: calc(30rem  / 80);
+    color: #000;
+}
+main .top  .nhjj,
+main .top  .fzjg{
+      float: left;
+    margin-top: calc(20rem / 80);
+    width: calc(400rem / 80);
+    height: calc(68rem / 80);
+    line-height: calc(68rem / 80);
+}
+main .top  .nhjj{
+    border-right: calc(1rem / 80) solid #d6d6d6;
+}
+main   .nhjj img,
+main   .fzjg img{
+    float: left;
+   width: calc(51rem / 80);
+   height: calc(40rem / 80);
+   margin-left: calc(49rem / 80);
+   margin-top: calc(15rem / 80);
+   margin-right: calc(48rem / 80);
+}
+main   .fzjg img{
+    width: calc(31rem / 80);
+    height: calc(37rem / 80);
+    margin-left: calc(59rem / 80);
+    margin-top: calc(16rem / 80);
+    margin-right: calc(59rem / 80);
+}
+main   .nhjj a,
+main   .fzjg a{
+    float: left;
+}
+main .information {
+    width: calc(800rem / 80);
+    height: calc(396rem / 80);
+    margin-top: calc(41rem / 80);
+}
+main .information h3{
+    width: calc(800rem / 80);
+    height: calc(90rem / 80);
+    line-height: calc(90rem / 80);
+    font-size: calc(34rem / 80);
+    color: #304056;
+    text-align: center;
+    font-weight: 600;
+    border-bottom:calc(1rem / 80) solid #d6d6d6;
+}
+.gsgg  li{
+    width:calc(751rem / 80);
+    height: calc(153rem / 80);
+    border-bottom: calc(2rem / 80)  dashed #d6d6d6;
+    padding-top: calc(36rem / 80);
+    margin-left: calc(24rem / 80);
+   
+}
+.gsgg  li:nth-child(2){
+    border-bottom: none;
+}
+.gsgg  li p{
+    height: calc(31rem / 80);
+    margin-bottom: calc(20rem / 80);
+}
+.gsgg  p a{
+    float: left;
+}
+.gsgg  p span{
+    float: right;
+    color: #808a97;
+}
+.gsgg  li p:nth-child(1) a{
+    margin-left: calc(22rem / 80);
+}
+/* 联系我们 */
+.lxwm {
+    width: calc(800rem / 80);
+    height: calc(465rem / 80);
+}
+.lxwm h3{
+    width: calc(800rem / 80);
+    height: calc(90rem / 80);
+    line-height: calc(90rem / 80);
+    font-size: calc(34rem / 80);
+    color: #304056;
+    text-align: center;
+    font-weight: 600;
+    border-bottom:calc(1rem / 80) solid #d6d6d6;
+    margin-top: calc(47rem / 80);
+    margin-bottom: calc(54rem / 80);
+}
+.lxwm p{
+    width: calc(800rem / 80);
+    height: calc(30rem / 80);
+    color: #898a97;
+    font-size: calc(30rem / 80);
+    padding-left: calc(24rem / 80);
+    margin-bottom: calc(18rem / 80);
+}
+/* 底部 */
+footer{
+    font-size: calc(31rem / 80);
+    color: #919191;
+}
+
+footer span {
+   display: block;
+   width: calc(800rem / 80);
+   height: calc(31rem / 80);
+   padding-left: calc(21rem / 64);
+ 
+}
+footer a {
+    display: block;
+    height: calc(31rem / 80);
+    width: calc(800rem / 80);
+    margin-top: calc(28rem  / 80);
+    padding-right: calc(21rem / 64);
+    color: #919191;
+    text-align: right;
+ }
+ footer img {
+     float: left;
+     margin-right: calc(12rem / 80);
+     width: calc(181rem / 80);
+     height: calc(65rem / 80);
+ }
+ footer div  {
+     width: calc(800rem / 80);
+     height: calc(65rem / 80);
+ }
+ footer div img:first-child{
+     margin-left: calc(176rem / 80);
+
+ }
+ footer i{
+    display: block;
+    width: calc(800rem / 80);
+    text-align: center;
+    margin-top: calc(31rem / 80);
+ } 
